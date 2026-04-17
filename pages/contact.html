@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我 | 林一</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="container nav-container">
+            <div class="logo"><a href="../index.html">MySite</a></div>
+            <ul class="nav-links">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="about.html">关于</a></li>
+                <li><a href="projects.html">项目</a></li>
+                <li><a href="contact.html">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h1 class="page-title">联系我</h1>
+            <div class="contact-wrapper">
+                <!-- 左侧联系方式 -->
+                <div class="contact-info">
+                    <h3>📫 保持联络</h3>
+                    <div class="info-item">📧 yilin@example.com</div>
+                    <div class="info-item">🐙 GitHub / yilin-dev</div>
+                    <div class="info-item">💬 Twitter / @yilin_code</div>
+                    <div class="social-links">
+                        <a href="#">GitHub</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">领英</a>
+                    </div>
+                    <p style="margin-top: 1.8rem; font-size: 0.9rem;">✨ 工作合作或技术交流，欢迎留言～</p>
+                </div>
+
+                <!-- 右侧留言表单 -->
+                <div class="contact-form">
+                    <h3>✍️ 给我留言</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" name="name" placeholder="你的名字" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">消息</label>
+                            <textarea id="message" name="message" rows="4" placeholder="想聊点什么？"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">发送消息</button>
+                        <div id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 林一 · 我会尽快回复你的消息</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

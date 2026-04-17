@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>My Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林一 · 全栈开发者</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>我的第一个全球网站</h1>
+    <nav class="main-nav">
+        <div class="container nav-container">
+            <div class="logo"><a href="index.html">MySite</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="pages/about.html">关于</a></li>
+                <li><a href="pages/projects.html">项目</a></li>
+                <li><a href="pages/contact.html">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <!-- 英雄区 Hero -->
+            <section class="hero">
+                <h1>Hi, 我是林一 👋</h1>
+                <p class="hero-subtitle">全栈开发者 · 乐于构建优雅的 Web 产品</p>
+                <div class="hero-buttons">
+                    <a href="pages/projects.html" class="btn-primary">查看作品</a>
+                    <a href="pages/contact.html" class="btn-secondary">联系我</a>
+                </div>
+            </section>
+
+            <!-- 快速入口卡片 -->
+            <section class="feature-cards">
+                <div class="card">
+                    <div class="card-icon">🧑‍💻</div>
+                    <h3>关于我</h3>
+                    <p>了解我的技术栈、经历和开发理念。</p>
+                    <a href="pages/about.html" class="card-link">了解更多 →</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📁</div>
+                    <h3>项目作品</h3>
+                    <p>任务看板、碳足迹计算器、开源组件库等。</p>
+                    <a href="pages/projects.html" class="card-link">浏览项目 →</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">✉️</div>
+                    <h3>保持联系</h3>
+                    <p>工作邀约、技术交流或单纯聊聊。</p>
+                    <a href="pages/contact.html" class="card-link">留言给我 →</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 林一 · 迭代不止，保持好奇</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
